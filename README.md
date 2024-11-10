@@ -88,7 +88,7 @@
 
 ### 📹 Demo
 
-![Demo](https://i.imgur.com/YI6RZ5P.gif)
+![Demo](https://i.imgur.com/85yw8di.gif)
 
 ---
 
