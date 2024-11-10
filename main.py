@@ -56,6 +56,7 @@ def main(custom_sequence=None):
         next_sequence -= 1
 
         log.success(f"Successfully guessed result: {next_sequence}")
+        input()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="V8 Randomness Predictor")
