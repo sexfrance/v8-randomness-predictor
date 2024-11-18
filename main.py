@@ -16,7 +16,7 @@ def main(custom_sequence=None):
         console.log(JSON.stringify(sequence));
         """
         result = subprocess.run(['node', '-e', js_code], capture_output=True, text=True)
-        sequence = json.loads(result.stdout) #! Edit this with a dict if you want to test it manually, it should have at least 5 Math.random() values it can be more. E.g: [0.05202328742387219, 0.30364247635586117, 0.7183273228185958, 0.3068890956782795, 0.6674550856854704]
+        sequence = json.loads(result.stdout) #! Edit this with a list if you want to test it manually, it should have at least 5 Math.random() values it can be more. E.g: [0.05202328742387219, 0.30364247635586117, 0.7183273228185958, 0.3068890956782795, 0.6674550856854704]
 
     sequence = sequence[::-1]
 
